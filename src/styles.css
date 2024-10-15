@@ -1,5 +1,25 @@
 body {
   font-family: Arial, sans-serif;
+  background-image: url('https://img.freepik.com/vector-gratis/calle-ciudad-vectores_23-2147751403.jpg?1&w=1060&t=st=1728956140~exp=1728956740~hmac=845e036ec4470b673f2f07f56b6adad37beee5148c656866d8b5256c76f30e3a'); /* Aquí va la URL de tu imagen */
+  background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+  background-position: center;
+  background-attachment: fixed; /* Para que la imagen no se mueva al hacer scroll */
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  max-width: 600px;
+  margin: 50px auto;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  z-index: 1; /* Asegura que el formulario esté encima de la imagen de fondo */
+  position: relative; /* Mantiene el formulario en la parte superior del fondo */
+}
+body {
+  font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   margin: 0;
   padding: 0;
